@@ -39,11 +39,11 @@ body{
 }
 
 #control-general {
-  width: 80%;
+  width: 75%;
   height: 70px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #controlesCarpetas {
@@ -60,7 +60,7 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 3px solid #fff;
+  border-bottom: 4px solid #80D0FC;
 }
 
 #switchEmpresa {
@@ -94,6 +94,41 @@ body{
 
 #imgLogoUsuario {
   height: 40px;
+}
+
+
+/*SELECTORES*/
+#selectores {
+  width: 100%;
+  background-color: #fff;
+  color: #1A84E1;
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center; 
+  box-shadow: 0px 5px 20px #c3d8eb;
+}
+
+#control-selectores {
+  width: 75%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menuSelectores {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#imgMenuSelectores, #imgIconosVarios1 {
+  height: 30px;
 }
 
 
