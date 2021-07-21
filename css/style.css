@@ -35,7 +35,7 @@ body{
 }
 
 #imglogo {
-  height: 50px;
+  height: 40px;
 }
 
 #control-general {
@@ -93,7 +93,7 @@ body{
 } 
 
 #imgLogoUsuario {
-  height: 40px;
+  height: 35px;
 }
 
 
@@ -138,6 +138,8 @@ body{
   height: 30px;
 }
 
+
+/*LISTADO*/
 #listado {
   width: 100%;
   display: flex;
@@ -170,8 +172,14 @@ body{
 
 #mostrarListado {
   width: 100%;
+  background-color: yellow;
+}
+
+.listadoGenerado {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  background-color: red;
 }
 
 .fichaEmpleado {
