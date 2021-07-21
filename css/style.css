@@ -180,6 +180,8 @@ body{
   flex-wrap: wrap;
 }
 
+
+/*FICHA EMPLEADO*/
 .fichaEmpleado {
   width: 23%;
   height: 300px;
@@ -192,8 +194,53 @@ body{
 }
 
 .imgEmpleado {
-  width: 60%;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.cuadroControlFicha {
+  height: 25px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgControlFicha {
+  height: 25px;
+}
+
+.nombreApellido {
+  color: #696F85;
+  font-weight: bold;
+}
+
+.cargoEmpresa {
+  color: #9ACFF1;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.lineaFicha {
+  width: 50%;
+}
+
+.emailEmpleado {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #76AEEB;
+  margin-top: 20px;
+}
+
+.celularEmpleado {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #76AEEB;
+  margin-bottom: 20px;
+}
+
 
 
 
