@@ -13,5 +13,19 @@ var cantidadListado = 12;
         //todos los datos
         console.log(data);
 
+        //muestro resultados
+        console.log(data.results);
+
+        //muestro el primer resultado
+        console.log(data.results[0]);
+
+        //datos del 1er resultado: 
+        console.log('nombre: ' + data.results[0].name.first + 
+        ' ' + data.results[0].name.last);
+        console.log('email: ' + data.results[0].email);
+        console.log('telefono: ' + data.results[0].phone);
+        console.log('celular: ' + data.results[0].cell);
+        console.log('foto: ' + data.results[0].picture.large);
+
     })
 // }
