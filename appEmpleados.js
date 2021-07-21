@@ -31,6 +31,9 @@ fetch('https://randomuser.me/api/?results='+ cantidadListado)
         console.log('celular: ' + data.results[0].cell);
         console.log('foto: ' + data.results[0].picture.large);
 
+        var textoBusqueda = document.getElementById('buscarListado');
+        textoBusqueda.placeholder = "buscar en " + cantidadListado + " empleados...";
+
         //llamo a la funcion que me muestra el listado
         mostrarListado(cantidadListado, data.results) 
 

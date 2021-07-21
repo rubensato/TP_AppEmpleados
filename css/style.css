@@ -34,6 +34,10 @@ body{
   padding: 0;;
 }
 
+#logo {
+
+}
+
 #imglogo {
   height: 40px;
 }
@@ -246,13 +250,53 @@ body{
 
 
 /*media queries - comportamiento responsivo*/
-@media (max-width: 1024px) {
+@media (max-width: 1024px) {  
+
+  /*CABECERA*/
+  #cabecera {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #logo {
+    width: 50%;
+    order: 1;
+  }
+
+  #control-general {
+    width: 100%;
+    order: 3;
+  }
+
+  #menuUsuario {
+    width: 50%;
+    order: 2;
+  }
+
   
+  /*SELECTORES*/
+  #control-selectores, #control-listado {
+    width: 100%;
+  }
+
+  
+  /*LISTADO*/
+  #seccionListado {
+    width: 100%;
+  }
 
 }
 
 
 @media (max-width: 768px) {
+  
+  /*FICHA EMPLEADO*/
+  .fichaEmpleado {
+    width: 46%;
+    margin: 2%;
+  }
  
   
 }
