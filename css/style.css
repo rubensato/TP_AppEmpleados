@@ -172,21 +172,19 @@ body{
 
 #mostrarListado {
   width: 100%;
-  background-color: yellow;
 }
 
 .listadoGenerado {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
 }
 
 .fichaEmpleado {
   width: 23%;
   height: 300px;
   margin: 1%;
-  background-color: rgb(6, 43, 110);
+  background-color: #fff;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

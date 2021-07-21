@@ -3,7 +3,7 @@
 
 //******* VARIABLES *********/
 //inicializo el codigo pidiendo un listado de 12 empleados
-var cantidadListado = 12;
+var cantidadListado = 10;
 
 
 // Consulto datos
